@@ -12,6 +12,7 @@ const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
+
   // { name: 'Certifications', href: '#certifications' },
   { name: 'Contact', href: '#contact' },
 ];
@@ -102,8 +103,8 @@ export const Navbar = ({ isDark, toggleTheme }: NavbarProps) => {
               <span className={`font-bold text-xl font-mono ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                <span className={isDark ? 'text-cyber-primary' : 'text-emerald-600'}>Port</span>
-                <span className={isDark ? 'text-cyber-secondary' : 'text-blue-500'}>folio</span>
+                <span className={isDark ? 'text-cyber-primary' : 'text-emerald-600'}>Ahmad</span>
+                <span className={isDark ? 'text-cyber-secondary' : 'text-blue-500'}>Abbas</span>
               </span>
             </motion.a>
 
